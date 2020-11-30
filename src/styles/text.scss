@@ -1,0 +1,41 @@
+$fontBold: Sans-Bold;
+$fontExtraBold: Sans-ExtraBold;
+$fontLight: Sans-Light;
+$fontBoldItalic: Sans-BoldItalic;
+
+h1 {
+  font-family: $fontBold;
+  color: #ccd6f6;
+}
+
+h3 {
+  font-family: $fontExtraBold;
+  color: #8892b0;
+}
+.react-data-table {
+  font-family: $fontBold;
+  color: #8892b0;
+}
+
+.resources {
+  h1,
+  p {
+    color: white;
+  }
+  p {
+    font-family: $fontLight;
+  }
+  .scroll-txt {
+    font-family: $fontExtraBold;
+    display: none;
+  }
+}
+
+.additional-resources {
+  h1 {
+    color: #00cdac;
+  }
+  p {
+    font-family: $fontLight;
+  }
+}
